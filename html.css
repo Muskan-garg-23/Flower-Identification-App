@@ -1,0 +1,121 @@
+header {
+    background-image: url("flowerRecog.png");
+    background-size: cover;
+    height: 500px;
+    opacity: 0.8;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    word-spacing: 30px;
+  }
+  /* section */
+section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    padding:20px;
+    margin:40px;
+  }
+
+  #flower:first-child div {
+    display:flex;
+    flex-direction : row;
+    width: 100%;
+    height: auto;
+    /* align-items: center; */
+    padding:10px;
+    margin:10px;
+  }
+
+  #first_box div{
+    position:relative;
+    /* display:flex;
+    flex-direction:row; */
+    padding:20px;
+    margin:50px;
+  }
+
+  .link{
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(232, 183, 183, 0.804);
+  }
+
+  .click{
+    padding:20px;
+    margin:20px;
+  }
+
+  .output{
+    border-radius:2%;
+    width:200px;
+    height:300px;
+    background-color: rgba(232, 183, 183, 0.804);
+  }
+
+
+  /* contact */
+
+#contact {
+    background-image: linear-gradient(rgb(0, 195, 255), skyblue);
+    color: white;
+  }
+  
+  #contact > div {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+  }
+  .details {
+    width: 50%;
+    height: inherit;
+    margin: 10px;
+    padding: 10px;
+    line-height: 20px;
+  }
+  .details input[type="text"],
+  input[type="email"] {
+    border: none;
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+  }
+  .details input[type="button"] {
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+  }
+  .info {
+    width: 50%;
+    height: inherit;
+    margin: 20px;
+  }
+  .info i {
+    margin-right: 10px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: white;
+    transition: color 2s;
+  }
+  .social-icons a:hover {
+    color: rgb(34, 124, 120);
+  }
+
+  /* social icons */
+.social-icons a i {
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .social-icons i:hover {
+    box-shadow: 0px 0px 6px 4px darkolivegreen;
+  }
+  
